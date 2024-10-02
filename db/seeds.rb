@@ -9,10 +9,11 @@
 #   end
 
 puts "Cleaning the database.."
+Bookmark.detroy_all
 Recipe.destroy_all
 
 puts "Creating recipes....."
-Recipe.create(
+Recipe.create!(
   name: "Tex-Mex Burger",
   description: "A jazzy way to spice up the boring basic burger that will tantalize your taste buds!"
   image_url: "https://www.allrecipes.com/thmb/rlAKZLHPzoSHUu3ANHkrUIJhCrI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/379901-06eae14ee9ad42dbae9d3bc5dcfec2e9.jpg"
