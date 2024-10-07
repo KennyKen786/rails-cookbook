@@ -110,13 +110,14 @@ GEM
     execjs (2.9.1)
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     font-awesome-sass (6.5.2)
       sassc (~> 2.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    importmap-rails (2.0.1)
+    importmap-rails (2.0.2)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
@@ -155,6 +156,8 @@ GEM
     nokogiri (1.16.7-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.8)
     popper_js (2.11.8)
@@ -261,6 +264,7 @@ GEM
 PLATFORMS
   arm64-darwin
   x86_64-darwin
+  x86_64-linux
 
 DEPENDENCIES
   autoprefixer-rails
